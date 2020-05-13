@@ -1,10 +1,12 @@
 # GeneratePropertyGettersSettersFromBackingFieldsInXLVBA
 After creating something like this in VBA:
+
+```
 Private Type TModel
    BackingFields...
 End Type
 Private this As TModel
-
+```
 It would be nice to not have to write all of the Property Get/Let/Set procedures.
 This project has taken a first swipe at doing just that.
 
